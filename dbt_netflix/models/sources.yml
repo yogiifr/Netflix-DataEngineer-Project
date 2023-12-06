@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_netflix
+    schema: netflix
+    tables:
+      - name: raw_netflix_titles
+        description: ""

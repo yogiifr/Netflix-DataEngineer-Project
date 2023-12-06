@@ -1,0 +1,112 @@
+[0m14:51:25.253606 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000233B9808F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000233BC8506A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000233BC850460>]}
+
+
+============================== 14:51:25.262213 | abcd7373-bbf8-4095-890c-38d89c44f503 ==============================
+[0m14:51:25.262213 [info ] [MainThread]: Running with dbt=1.6.6
+[0m14:51:25.264165 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Administrator\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:51:33.344604 [debug] [MainThread]: Starter project path: C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\include\starter_project
+[0m14:51:33.365580 [info ] [MainThread]: 
+Your new dbt project "netflix_e2ep_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:51:33.370094 [info ] [MainThread]: Setting up your profile.
+[0m14:54:13.151456 [info ] [MainThread]: Profile netflix_e2ep_dbt written to C:\Users\Administrator\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:54:13.155415 [debug] [MainThread]: Command `dbt init` succeeded at 14:54:13.154417 after 167.94 seconds
+[0m14:54:13.156460 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000233B9808F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000233BC866A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000233D6796520>]}
+[0m14:54:13.159022 [debug] [MainThread]: Flushing usage events
+[0m15:02:17.164465 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C945E0BDF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C948E70700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C948E704C0>]}
+
+
+============================== 15:02:17.224176 | 3d844d2a-39a4-4b14-a9ac-c84b2abed2ad ==============================
+[0m15:02:17.224176 [info ] [MainThread]: Running with dbt=1.6.6
+[0m15:02:17.226647 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Administrator\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:02:22.374419 [debug] [MainThread]: Starter project path: C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\include\starter_project
+[0m15:02:22.424098 [info ] [MainThread]: 
+Your new dbt project "dbt_netflix" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:02:22.428647 [info ] [MainThread]: Setting up your profile.
+[0m15:02:57.986586 [info ] [MainThread]: Profile dbt_netflix written to C:\Users\Administrator\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:02:57.989622 [debug] [MainThread]: Command `dbt init` succeeded at 15:02:57.989622 after 40.86 seconds
+[0m15:02:57.991628 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C945E0BDF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C948E86A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C948E70C40>]}
+[0m15:02:57.993611 [debug] [MainThread]: Flushing usage events
+[0m15:55:04.958589 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F78A389F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F78D3D06A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F78D3D0460>]}
+
+
+============================== 15:55:04.965689 | a0a1c4da-4337-4a61-bd9b-21268e87a56f ==============================
+[0m15:55:04.965689 [info ] [MainThread]: Running with dbt=1.6.6
+[0m15:55:04.967687 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Administrator\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m15:55:13.631734 [debug] [MainThread]: Starter project path: C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\include\starter_project
+[0m15:55:13.694124 [info ] [MainThread]: 
+Your new dbt project "dbt_netflix" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:55:13.698656 [info ] [MainThread]: Setting up your profile.
+[0m15:55:48.226466 [info ] [MainThread]: Profile dbt_netflix written to C:\Users\Administrator\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:55:48.229520 [debug] [MainThread]: Command `dbt init` succeeded at 15:55:48.229520 after 43.30 seconds
+[0m15:55:48.230474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F78A389F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F78D3E7A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F7A7317520>]}
+[0m15:55:48.232476 [debug] [MainThread]: Flushing usage events
+[0m08:28:52.096229 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F4FC4CB9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F4812906D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F481290490>]}
+
+
+============================== 08:28:52.163010 | 3d95a9b4-27e8-4ec6-9c62-b1b153ae6f61 ==============================
+[0m08:28:52.163010 [info ] [MainThread]: Running with dbt=1.6.6
+[0m08:28:52.166140 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Administrator\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m08:28:56.086275 [debug] [MainThread]: Starter project path: C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\include\starter_project
+[0m08:28:56.106176 [info ] [MainThread]: 
+Your new dbt project "dbt_netflix" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m08:28:56.116159 [info ] [MainThread]: Setting up your profile.
+[0m08:29:24.486283 [info ] [MainThread]: Profile dbt_netflix written to C:\Users\Administrator\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m08:29:24.486283 [debug] [MainThread]: Command `dbt init` succeeded at 08:29:24.486283 after 32.42 seconds
+[0m08:29:24.486283 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F4FC4CB9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F4812A8A60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F49B1D7FA0>]}
+[0m08:29:24.494888 [debug] [MainThread]: Flushing usage events
