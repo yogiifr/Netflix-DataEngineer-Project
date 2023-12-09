@@ -6,3 +6,9 @@ sources:
     tables:
       - name: raw_netflix_titles
         description: ""
+
+  - name: api_netflix
+    schema: netflix
+    tables:
+      - name: api_response_netflix
+        description: ""

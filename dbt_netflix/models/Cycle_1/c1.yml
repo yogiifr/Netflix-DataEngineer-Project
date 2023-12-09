@@ -1,0 +1,6 @@
+version: 2
+
+models:
+    - name: bronze_netflix_titles
+    - name: silver_netflix_current
+    - name: gold_netflix_initial_report

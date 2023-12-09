@@ -1,6 +1,0 @@
-version: 2
-
-models:
-    - name: production__director_count
-    - name: production__cast_count
-    - name: production__category_count

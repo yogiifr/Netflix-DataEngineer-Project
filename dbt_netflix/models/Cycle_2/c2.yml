@@ -1,0 +1,6 @@
+version: 2
+
+models:
+    - name: bronze_netflix_api
+    - name: silver_netflix_api_current
+    - name: gold_netflix_api_summary

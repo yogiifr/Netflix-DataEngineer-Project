@@ -33,7 +33,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbt_netflix:
     # Config indicated by + and applies to all files under models/example/
-    staging:
-      +materialized: table
-    production:
+    Cycle_1:
+      +schema: c1
+      +materialized: view
+    Cycle_2:
+      +schema: c2
       +materialized: view
